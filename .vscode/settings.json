@@ -1,3 +1,4 @@
 {
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "livePreview.defaultPreviewPath": "/books/Front_End/M02_Advanced_CSS/02-Flexbox-Layout"
 }
