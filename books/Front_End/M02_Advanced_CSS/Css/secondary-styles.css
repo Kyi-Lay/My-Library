@@ -1,0 +1,111 @@
+:root {
+  --primary-color: #fce138;
+  --secondary-color: #024e76;
+  --tertiary-color: #39a6b2;
+}
+
+/* SECONDARY PAGE STYLES */
+.hero {
+  background-position: bottom;
+  height: auto;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.checkbox-wrapper input, .radio-wrapper input {
+  opacity: 1;
+}
+
+.checkbox-wrapper label, .radio-wrapper label {
+  position: relative;
+  left: 10px;
+  margin: 10px;
+  line-height: 1.6;
+}
+
+.checkbox-wrapper label::before, .radio-wrapper label::before {
+  content: "";
+  height: 20px;
+  width: 20px;
+  background: rgba(255, 255, 255, 0.75);  
+  border: 1px solid var(--secondary-color);  
+  position: absolute;
+  top: -4px;
+  left: -30px;
+}
+
+.radio-wrapper label::before {
+  border-radius: 50%;
+}
+
+.radio-wrapper label::after {
+  content: "";
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: var(--secondary-color);
+  position: absolute;
+  left: -29px;
+  top: -3px;
+  background-image: radial-gradient(circle, var(--tertiary-color), var(--secondary-color));
+}
+
+.checkbox-wrapper label::after {
+  content: "";
+  height: 6px;
+  width: 14px;
+  border-left: 2px solid var(--secondary-color);
+  border-bottom: 2px solid var(--secondary-color);
+  position: absolute;
+  left: -26px;
+  top: 1px;
+  transform: rotate(-58deg);
+}
+.page-title {
+  padding: 0 80px 15px 80px;
+  font-size: 42px;
+  font-weight: 400;
+  font-style: italic;
+  color: #fce138;
+  display: inline-block;
+  border-bottom: 4px solid #fce138;
+}
+
+radio-wrapper input + label::after {
+  content: none;
+}
+
+.checkbox-wrapper input:checked + label,
+.radio-wrapper input:checked + label {
+  font-weight: bold;
+}
+
+.checkbox-wrapper input:checked + label::after, 
+.radio-wrapper input:checked + label::after {
+  content: "";
+}
+.secondary-content {
+  width: 80%;
+  margin: 0 auto;
+  color: #024e76;
+}
+
+.secondary-content h3 {
+  font-size: 25px;
+  margin: 20px 0;
+}
+
+.secondary-content p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 20px 0;
+}
+
+.secondary-content ul {
+  margin: 15px 20px;
+}
+
+.secondary-content li {
+  color: #39a6b2;
+  margin: 10px 0;
+}
