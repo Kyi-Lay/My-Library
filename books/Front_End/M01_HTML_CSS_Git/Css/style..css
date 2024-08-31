@@ -1,0 +1,130 @@
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body,
+.wrapper {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: lightblue;
+    color: darkblue;
+}
+
+.wrapper {
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    padding-top: 0px;
+    color: #333;
+}
+
+.container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ec7d7d;
+    border-radius: 5px;
+    background-color: #888;
+    border-radius: 5px;
+    border-width: 1px;
+    box-shadow: #999;
+
+}
+
+.card-body {
+    margin: auto;
+    padding: auto;
+}
+
+.card-footer {
+    text-align: center;
+}
+
+.card-footer::before {
+    content: " ";
+    display: block;
+    width: 100%;
+    background-color: rgb(204, 204, 66);
+    height: 2px;
+}
+
+.card-footer::after {
+    content: " ";
+    display: block;
+    clear:both;
+}
+
+.btn {
+    border: none;
+    background-color: #777;
+    border-radius: 25px;
+    box-shadow: #666;
+    color: bisque;
+    display: inline-block;
+    font-size: 22px;
+    line-height: 22px;
+    margin: 16px 16px 16px 20px;
+    padding: 14px 34px;
+    text-align: center;
+    cursor: pointer;
+}
+
+button[disabled] {
+    cursor: default;
+    background: #777;
+}
+
+.float-right {
+    float: right;
+}
+
+#password {
+    width: 25%;
+    padding-top: 2px;
+    padding-left: 1px;
+    padding: 5px;
+    padding-bottom: 1px;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: aqua;
+    border: 1px dashed #e4dcdc55;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+@media (max-width: 540) {
+    .btn {
+        font-size: 1rem;
+        margin: 16px 0px 0px 0px;
+        padding: 10px 15px;
+    }
+
+    #password {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .btn {
+        font-size: 0.8rem;
+    }
+}
+
+
+
+
+ 
