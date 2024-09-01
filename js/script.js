@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const bookList = document.getElementById("bookList");
   const fileDisplay = document.getElementById("fileDisplay");
-  const MAX_FILES = 2;
+  const MAX_FILES = 1;
 
   const folderStructure = {
     မူလတန်း: {
@@ -34,23 +34,23 @@ document.addEventListener("DOMContentLoaded", () => {
         "10-Quiz.html",
       ],
       M02_Advanced_CSS: [
-        "01-HTML.html",
-        "02-Attributes.html",
-        "03-CSS-Selectors.html",
-        "04-Box-Model.html",
-        "05-CSS-Positioning.html",
+        "01-wireframe",
+        "02-Flexbox-Layout.html",
+        "03-Responsive.html",
+        "04-Paseudo.html",
+        "05-CSS-Variables.html",
         "06-Git-Guide.html",
         "07-Challenge.html",
-        "08-Module-Project.html",
+        "08-Module-2-Project.html",
         "09-Recordings.html",
         "10-Quiz.html",
       ],
       M03_JavaScript: [
-        "01-HTML.html",
-        "02-Attributes.html",
-        "03-CSS-Selectors.html",
-        "04-Box-Model.html",
-        "05-CSS-Positioning.html",
+        "01-Conditional.html",
+        "02-Iteration.html",
+        "03-Function.html",
+        "04-Scope.html",
+        "05-Obje-this.html",
         "06-Git-Guide.html",
         "07-Challenge.html",
         "08-Algorithms.html",
@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "11-Quiz.html",
       ],
       M04_Web_APIs: [
-        "01-HTML.html",
+        "01-Conditiona.html",
         "02-Attributes.html",
         "03-CSS-Selectors.html",
         "04-Box-Model.html",
