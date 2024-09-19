@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "11-Quiz.html",
       ],
       M06_Server_Side_APIs: [
-        "01-HTML.html",
+        "01-Create-Fetch.html",
         "02-Attributes.html",
         "03-CSS-Selectors.html",
         "04-Box-Model.html",
