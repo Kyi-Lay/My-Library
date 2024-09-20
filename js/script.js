@@ -95,7 +95,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "02-Parse-Json.html",
         "03-Demo-Dynamic.html",
         "04-Deconstruct-Para.html",
-        "05-CSS-Positioning.html",
+        "05-Fetch-GitHub-Issuse.html",
         "06-Git-Guide.html",
         "07-Challenge.html",
         "08-Algorithums01-is-palindrome.html",
