@@ -1,57 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quiz with Timer</title>
-    <link rel="stylesheet" href="../../../css/quiz.css" />
-  </head>
-  <body>
-    <div id="start-container">
-      <h2>Welcome to the Quiz!</h2>
-      <input
-        type="text"
-        id="username"
-        placeholder="Enter your name"
-        onfocus="clearPlaceholder(this)"
-      />
-      <button onclick="startQuiz()">Start Quiz</button>
-    </div>
 
-    <div class="quiz-container" id="quiz-container" style="display: none">
-      <div id="timer">Time Left: <span id="time">36</span> seconds</div>
-      <div id="question"></div>
-      <div class="options"></div>
-      <button id="next-question" onclick="checkAnswer()">Submit</button>
-      <div id="feedback"></div>
-    </div>
+<head>
+  <meta charset="UTF-8" />
+  <title>jQuery Shopping List</title>
+  <link rel="stylesheet" type="text/css" href="./event-delegation-jass.css" />
+  <link rel="stylesheet" type="text/css" href="./event-delegation.css" />
+</head>
 
-    <div id="result-container" style="display: none">
-      <h2>Quiz Result</h2>
-      <div id="result"></div>
-      <button id="test-again" onclick="testAgain()">Test Again</button>
-    </div>
+<body class="bg-dark text-light">
+  <main class="my-5 mx-auto">
+    <h1>Shopping List</h1>
+    <hr />
 
-    <!-- Store questions in a script tag with type="application/json" -->
-  <script id="questions-data" type="application/json">
-    [
-      {
-        "question": "What is the capital of France?",
-        "options": ["Paris", "Berlin", "Rome", "Madrid"],
-        "answer": "Paris"
-      },
-      {
-        "question": "Which planet is known as the Red Planet?",
-        "options": ["Mars", "Earth", "Jupiter", "Saturn"],
-        "answer": "Mars"
-      },
-      {
-        "question": "What is the largest ocean on Earth?",
-        "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
-        "answer": "Pacific Ocean"
-      }
-    ]
+    <h2>Add an item to the list.</h2>
+    <form id="shopping-form">
+      <input type="text" class="form-input w-100" id="shopping-input" name="shopping-input" placeholder="Enter item name" />
+      <button class="btn btn-info">Add Item</button>
+    </form>
+
+    <ul id="shopping-list"></ul>
+  </main>
+
+  <!-- Added link to the jQuery library -->
+  <!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Your JavaScript file -->
+  <script type="text/javascript" src="./event-delegatio.js">
   </script>
-    <script src="../../../js/quiz.js"></script>
-  </body>
+</body>
+
 </html>
