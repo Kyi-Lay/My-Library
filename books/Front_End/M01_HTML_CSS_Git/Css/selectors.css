@@ -22,6 +22,10 @@ figure {
   background-color: #f0ead6;
 }
 
+img {
+  width: 200px;
+}
+
 /* TODO: Label selector type */
 .highlighted-text {
   font-weight: bolder;
