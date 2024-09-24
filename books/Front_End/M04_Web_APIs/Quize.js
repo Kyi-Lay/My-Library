@@ -46,9 +46,9 @@ let questions = [
 ",
       },
       {
-        question: "What does the randomNumber function do?",
-        options: ["(A) Generates a random color", "(B) Generates a random numeric value between specified min and max", "(C) Generates a random name", "(D) Generates a random attack type", "(E) The player can immediately attack again"],
-        answer: "(B) Generates a random numeric value between specified min and max",
+        question: "What is the purpose of the taskIdCounter variable in the code?",
+        options: ["(A) It stores the total number of tasks.", "(B) It generates unique IDs for each task.", "(C) It counts the number of completed tasks.", "(D) It tracks the number of edits made to tasks.", "(E) It holds the index of the last task in the array."],
+        answer: "(B) It generates unique IDs for each task.",
       },
   ];
   
