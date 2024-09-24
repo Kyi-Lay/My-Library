@@ -20,9 +20,9 @@ let questions = [
       answer: "(B) The user object as a string.",
     },
     {
-        question: "What is this referring to in the line console.log(this);?",challen
-        options: ["(A) The current function's context", "(B) The global object ", "(C) The parent object", "(D) An undefined value", "(E) A specific variable in the function"],
-        answer: "(B) The global object ",
+        question: "What does the function random_Func(length) return?",challen
+        options: ["(A) A random number between 0 and length - 1 ", "(B) A random number between 1 and length", "(C) A random float between 0 and length", "(D) A random boolean value", "(E) A random string from a list"],
+        answer: "(A) A random number between 0 and length - 1  ",
       },
       {
         question: "If the function is called with logEvenNums(0), what will it output?",
