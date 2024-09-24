@@ -11,38 +11,39 @@ let questions = [
     },
     {
       question: "What does the countdown function do?",
-      options: ["(A) It displays a message all at once.", "(B) It counts down from 5 seconds and updates the timer display. ", "(C) It resets the countdown every second.", "(D) It only displays the time without counting down.", "(E) It stops the execution of all functions. "],
-      answer: "(B) It counts down from 5 seconds and updates the timer display.",
+      options: ["(A) It displays a message all at once.", "(B) It checks if the element is a direct child of a container. ", "(C) It checks if the element has a class of "box".", "(D) It checks if the element has a data-state attribute.", "(E)  An error will be thrown. "],
+      answer: "(C) It checks if the element has a class of box.",
     },
     {
-      question: "What will be the output of the function?",မပဲီ
-      options: ["(Shout,Shout", "(B) Shout,Shout", "(C) shout it all out!", "(D) shout, it all out!", "(E) Just shout"],
-      answer: "(A) shout,shout",
+      question: "What type of data is stored in local storage using localStorage.setItem()?",
+      options: ["(A) The user object as a plain object.", "(B) The user object as a string.", "(C) The user object as an array.", "(D) The user object as a number.", "(E) The user object as a boolean value."],
+      answer: "(B) The user object as a string.",
     },
     {
-        question: "What is this referring to in the line console.log(this);?",
+        question: "What is this referring to in the line console.log(this);?",challen
         options: ["(A) The current function's context", "(B) The global object ", "(C) The parent object", "(D) An undefined value", "(E) A specific variable in the function"],
         answer: "(B) The global object ",
       },
       {
-        question: "What does the generatePassword function do?",
-        options: ["(A) It creates a new webpage.", "(B) It generates a random password based on specified criteria.", "(C) It deletes user input.", "(D) It saves passwords to a file.", "(E) Only numbers."],
-        answer: "( It generates a random password based on specified criteria. ",
+        question: "If the function is called with logEvenNums(0), what will it output?",
+        options: ["(A) It will print nothing.", "(B) It will print 1.", "(C) It will print 0.", "(D) It will print -1.", "(E) It will print all numbers up to 0."],
+        answer: "( C) It will print 0.",
       },
       {
-        question: "What does the add function do?",
-        options: ["(A) It multiplies two numbers.", "(B) It subtracts the second number from the first.", "(C) It adds two numbers.", "(D) It divides the first number by the second.", "(E) It returns infinity."],
-        answer: "(c) It adds two numbers.",
+        question: "What will the following code print when countdown(9) is called?",
+        options: ["(A) 9, 8, 7, 6, 5, 4, 3, 2, 1", "(B) 9, 8, 7, 6, 5, 4, 3, 2, 0", "(C) 1, 2, 3, 4, 5, 6, 7, 8, 9", "(D) 10, 9, 8, 7, 6, 5, 4, 3, 2, 1", "(E) 9"],
+        answer: "The ultimate correct answer!",
       },
       {
-        question: "What will the function return for the input?",
-        options: ["(A) odd", "(B) even", "(C) ten", "(D) negative", "(E) none"],
-        answer: "(B) even",
+        question: "What is the purpose of the sumArray function?",
+        options: ["(A) To find the maximum number in the array.", "(B) To concatenate all strings in the array.", "(C) To add all the numbers in the array and return the total.", "(D) To sort the numbers in the array.", "(E) To count the number of elements in the array."],
+        answer: "(C) To add all the numbers in the array and return the total.",
       },
       {
-        question: "What does the function logNums do?",
-        options: ["(A) It prints all numbers from 1 to num.", "(B) It prints all even numbers from 1 to num.", "(C)  It calculates the sum of all numbers from 1 to num.", "(D) It returns the largest number less than num.", "(E) The function will not print anything"],
-        answer: "(A) It prints all numbers from 1 to num.",
+        question: "What is the purpose of localStorage.setItem user, userString in the code?",
+        options: ["(A) It logs the user details to the console.", "(B) It saves the user object as a string in local storage.", "(C) It clears the user data from local storage.", "(D) It sends user data to a server.", "(E) It checks if the user is already registered."],
+        answer: "(B) It saves the user object as a string in local storage.",
+",
       },
       {
         question: "What does the randomNumber function do?",
